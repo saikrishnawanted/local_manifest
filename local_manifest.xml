@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- local -->
+    <project path="device/realme/RMX1921" name="saikrishnawanted/android_device_realme_RMX1921" remote="github" revision="lineage-17.0" />
+    <project path="device/realme/sdm710-common" name="saikrishnawanted/android_device_realme_sdm710-common" remote="github" revision="lineage-17.0" />
+    <project path="vendor/realme" name="saikrishnawanted/proprietary_vendor_realme" remote="github" revision="lineage-17.0" />
+    
+    
+      
+    <!-- Kernel -->
+    <project path="kernel/realme/sdm710" name="saikrishnawanted/android_kernel_realme_sdm710" remote="github" revision="xt" />
+
+    
+</manifest>
