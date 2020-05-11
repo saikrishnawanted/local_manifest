@@ -21,7 +21,7 @@ rm -rf vendor/qcom/opensource/audio-hal/primary-hal
 
 echo -e "$cyan Cloning Trees"
 git clone -b quartz  https://github.com/saikrishnawanted/pa_device_realme_RMX1921 device/realme/RMX1921
-git clone -b quartz   https://github.com/saikrishnawanted/android_device_realme_sdm710-common device/realme/sdm710-common
+git clone -b pa https://github.com/saikrishnawanted/android_device_realme_sdm710-common device/realme/sdm710-common
 git clone -b pa_kernel https://github.com/saikrishnawanted/android_kernel_realme_sdm710 kernel/realme/sdm710
 git clone -b quartz  https://github.com/saikrishnawanted/proprietary_vendor_realme vendor/realme
 git clone -b quartz  https://github.com/AOSPA/android_vendor_qcom_opensource_commonsys-intf_display vendor/qcom/opensource/commonsys-intf/display
